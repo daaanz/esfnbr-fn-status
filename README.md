@@ -1,2 +1,2 @@
-# esfnbr-emergency
-Emergency messages.
+# esfnbr-fn-status
+Fortnite server status.

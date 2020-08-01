@@ -1,1 +1,1 @@
-worker: python stage-prod.py
+worker: python fn-status.py
