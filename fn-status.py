@@ -23,10 +23,10 @@ while 1:
         try:
             print('El estado del servidor se ha actualizado...')
             if statusNew == 'UP':
-                api.update_with_media('assets/status.jpg', '¡El servidor de Fortnite está en línea!')
+                api.update_status('¡El servidor de Fortnite está en línea!')
                 print('Publicado correctamente en Twitter. (Online)')
             else:
-                api.update_with_media('assets/status.jpg', '¡El servidor de Fortnite no está en línea!')
+                api.update_status('¡El servidor de Fortnite no está en línea!')
                 print('Publicado correctamente en Twitter. (Offline)')
             status = res[0]['status']
         except:
